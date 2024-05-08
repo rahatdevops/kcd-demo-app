@@ -6,5 +6,3 @@ metadata:
   labels:
     app: kcd-demo-app
   name: envar-config-kcd-demo-app
-  annotations:
-    argocd.argoproj.io/sync-wave: "1"

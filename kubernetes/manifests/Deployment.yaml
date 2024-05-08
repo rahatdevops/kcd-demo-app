@@ -4,8 +4,6 @@ metadata:
   labels:
     app: kcd-demo-app
   name: kcd-demo-app
-  annotations:
-    argocd.argoproj.io/sync-wave: "1"
 spec:
   replicas: 2
   selector:
