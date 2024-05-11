@@ -5,7 +5,7 @@ metadata:
     app: kcd-demo-app
   name: kcd-demo-app
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: kcd-demo-app
